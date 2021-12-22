@@ -1,0 +1,371 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void LookCamera::Start()
+extern void LookCamera_Start_m477D97AEEB0AE668707135233A771CFEDB158758 (void);
+// 0x00000002 System.Void LookCamera::Update()
+extern void LookCamera_Update_mA407320027A42D7B3D927D1A96C5D21957FAE501 (void);
+// 0x00000003 System.Void LookCamera::.ctor()
+extern void LookCamera__ctor_m205E686ADE2447FB6D77455C6B1BB68A9EE8F711 (void);
+// 0x00000004 System.Void SkyboxChanger::Awake()
+extern void SkyboxChanger_Awake_m277CAAE5694E0F626BC667F43F17F9937A5CE0F8 (void);
+// 0x00000005 System.Void SkyboxChanger::ChangeSkybox()
+extern void SkyboxChanger_ChangeSkybox_mDDFA30D0CA245B27A82D0E3C499725B0C4A2A7A8 (void);
+// 0x00000006 System.Void SkyboxChanger::.ctor()
+extern void SkyboxChanger__ctor_mF2042E40C757632172F960BB139550F779D36080 (void);
+// 0x00000007 System.Void Cube::Start()
+extern void Cube_Start_m7F0D8234146CEF017DE64B936C24DA85B1443B62 (void);
+// 0x00000008 System.Void Cube::Update()
+extern void Cube_Update_m7A81C6F3625ACAB2DEBA548F1A765383F060CFEC (void);
+// 0x00000009 System.Void Cube::forwardButtonDown()
+extern void Cube_forwardButtonDown_m460B1042845A60D551D267944D0E539594607612 (void);
+// 0x0000000A System.Void Cube::forwardButtonUp()
+extern void Cube_forwardButtonUp_m77FF7D86D6C1C1AA7DC67D9B6CCA998042FE9BEE (void);
+// 0x0000000B System.Void Cube::backButtonDown()
+extern void Cube_backButtonDown_mD637256CF69ED6CC2B76999CA0A997CA7B0A9500 (void);
+// 0x0000000C System.Void Cube::backButtonUp()
+extern void Cube_backButtonUp_mDBB66672276581950344594C8AE89B1E5A5A9F7A (void);
+// 0x0000000D System.Void Cube::rightButtonDown()
+extern void Cube_rightButtonDown_m6B72B94F5E59A4D6F2BA3302D68F715F916A1C9A (void);
+// 0x0000000E System.Void Cube::rightButtonUp()
+extern void Cube_rightButtonUp_mF84D5A475F17AD386528DD454E09B8AF40211CFC (void);
+// 0x0000000F System.Void Cube::leftButtonDown()
+extern void Cube_leftButtonDown_mECBCC71B7670A1F3FFED04A9DAD405535461E7E9 (void);
+// 0x00000010 System.Void Cube::leftButtonUp()
+extern void Cube_leftButtonUp_m4280A96E828D0676F76BED03E0D8CBCD6FD7B6FF (void);
+// 0x00000011 System.Void Cube::.ctor()
+extern void Cube__ctor_m6544EEAA5C47298B0E2AF77CE54857E6D4549A4D (void);
+// 0x00000012 System.Void Meteo_Creater::Start()
+extern void Meteo_Creater_Start_m13E1F177CC3A60F15072EAA98A0C28BD52B1F2BC (void);
+// 0x00000013 System.Void Meteo_Creater::Update()
+extern void Meteo_Creater_Update_mE20B9E997E76AB8093B1FA17994628A03D55C418 (void);
+// 0x00000014 System.Void Meteo_Creater::.ctor()
+extern void Meteo_Creater__ctor_m7C28560767E4E0D44421CE3A9231C0C9473D2DD0 (void);
+// 0x00000015 System.Void StartButton::OnClickStartButton()
+extern void StartButton_OnClickStartButton_mA4617EAAFF5D010600A96E89A700DB909FB441A4 (void);
+// 0x00000016 System.Void StartButton::.ctor()
+extern void StartButton__ctor_m6DAB2093EB360099E446CA6B746441526C0C7BD9 (void);
+// 0x00000017 System.Void TitleM::Start()
+extern void TitleM_Start_mE3F42C8FC4E0FC9B621E35E7D504958BF897323B (void);
+// 0x00000018 System.Void TitleM::Update()
+extern void TitleM_Update_m3B771C82AEE3D6FF64C2C21859CD6F7AA17435AE (void);
+// 0x00000019 System.Void TitleM::OnTriggerEnter(UnityEngine.Collider)
+extern void TitleM_OnTriggerEnter_mFAA9677512006385AFED7361F85C3A175796F4C8 (void);
+// 0x0000001A System.Void TitleM::.ctor()
+extern void TitleM__ctor_mDDA919C26678B48DD42297A74BB8763215C37FE8 (void);
+// 0x0000001B System.Void TitleMeteo::Start()
+extern void TitleMeteo_Start_m9C81026AF10FBA01C6E08533CE9A9A31158D6462 (void);
+// 0x0000001C System.Void TitleMeteo::Update()
+extern void TitleMeteo_Update_mFB7F3C77F5397E58E5C0DAC5565E1E7B09766238 (void);
+// 0x0000001D System.Void TitleMeteo::OnCollisionEnter(UnityEngine.Collision)
+extern void TitleMeteo_OnCollisionEnter_mBD69C9FD4C6D3036480385B2E7B75393BA47C05C (void);
+// 0x0000001E System.Void TitleMeteo::.ctor()
+extern void TitleMeteo__ctor_mFA67E1B3D83151FC333BD4A7A4429F573B3A2D2E (void);
+// 0x0000001F System.Void Title_HighScore::Start()
+extern void Title_HighScore_Start_mB269CA7C81CB2543AF2BEB59586978E6AD13E7EB (void);
+// 0x00000020 System.Void Title_HighScore::Update()
+extern void Title_HighScore_Update_mB4030B88BBB078230417D04B19CB1675A280304B (void);
+// 0x00000021 System.Void Title_HighScore::Initialize()
+extern void Title_HighScore_Initialize_m83C4CBA624D85BBEB4B013281D3CAAC0E8D7B31B (void);
+// 0x00000022 System.Void Title_HighScore::Save()
+extern void Title_HighScore_Save_mC75FACB962CA05DDAC2FCD573F9DA049D2167F2A (void);
+// 0x00000023 System.Void Title_HighScore::.ctor()
+extern void Title_HighScore__ctor_m18D6E374E57D79102222DD092EA268A2FEFD803F (void);
+// 0x00000024 System.Void BlockCreater::Start()
+extern void BlockCreater_Start_m4C7382BFFE75A21DF800A446C0B3B47492E70178 (void);
+// 0x00000025 System.Void BlockCreater::Update()
+extern void BlockCreater_Update_mE6852B4D5869FD7321F03A36D3F983A47B21FD2D (void);
+// 0x00000026 System.Void BlockCreater::.ctor()
+extern void BlockCreater__ctor_mDC3C628EAF765313B343A1384FC7F0578994D33C (void);
+// 0x00000027 System.Void BlockCreater::.cctor()
+extern void BlockCreater__cctor_m1B75B06CCB4E5474D354B384F046D77CF2756C06 (void);
+// 0x00000028 System.Void Explosion_particle::Start()
+extern void Explosion_particle_Start_m6069C50BF8EE6375DAB5770B9881819EEB075864 (void);
+// 0x00000029 System.Void Explosion_particle::Update()
+extern void Explosion_particle_Update_m1F4A890FD3FDDA7C85C552BBC547BC787D268791 (void);
+// 0x0000002A System.Void Explosion_particle::.ctor()
+extern void Explosion_particle__ctor_mB272237503131AE7E41D19202B30D90A7ABB9DF0 (void);
+// 0x0000002B System.Void Retry_Button::OnClickRetryButton()
+extern void Retry_Button_OnClickRetryButton_m811AE12D63B05A48A0F3A648C5D7B2CC31EFEA7B (void);
+// 0x0000002C System.Void Retry_Button::.ctor()
+extern void Retry_Button__ctor_mC158FF0D635B68AA36255662F6DD3697587B817F (void);
+// 0x0000002D System.Void Score::Start()
+extern void Score_Start_m65B0DAC30D1A9E246D4CF14672D8138B53EDA564 (void);
+// 0x0000002E System.Void Score::Update()
+extern void Score_Update_mB696B161F91F1AE220BCD4F47028DE039D9697D2 (void);
+// 0x0000002F System.Void Score::Initialize()
+extern void Score_Initialize_mB8347144557C745BECA791B67272DAB3024E4321 (void);
+// 0x00000030 System.Void Score::AddPoint(System.Int32)
+extern void Score_AddPoint_mE05E9404BE2918B4AFBE7E57940A02436A8DDEF3 (void);
+// 0x00000031 System.Void Score::Save()
+extern void Score_Save_mD844762A10845C39DAD47EA38D982C6E854AE243 (void);
+// 0x00000032 System.Void Score::.ctor()
+extern void Score__ctor_mEE9186D20D9B28A735262B29AB6E8D9FF1380FB6 (void);
+// 0x00000033 System.Void Score_Creater::Start()
+extern void Score_Creater_Start_m6506D7A94C28CDE8D6E8E3267C6AC0E90824BF9B (void);
+// 0x00000034 System.Void Score_Creater::Update()
+extern void Score_Creater_Update_mD74E0D83EE17300990300B0EE0F555F93028CF2F (void);
+// 0x00000035 System.Void Score_Creater::.ctor()
+extern void Score_Creater__ctor_m5ECD5B74352EB5F15E70878CAC92C31B0496FD1C (void);
+// 0x00000036 System.Void Score_Point::Start()
+extern void Score_Point_Start_m6BE42B7BFE5449EB1F362300A35421C7D19253CB (void);
+// 0x00000037 System.Void Score_Point::Update()
+extern void Score_Point_Update_m8FCACAC0FD4EE7C4E6C8A9A28B642F4E84BB7B34 (void);
+// 0x00000038 System.Void Score_Point::OnTriggerEnter(UnityEngine.Collider)
+extern void Score_Point_OnTriggerEnter_m22FF462B568BF8C3BB1E97F2861FE09D08177290 (void);
+// 0x00000039 System.Void Score_Point::OnCollisionEnter(UnityEngine.Collision)
+extern void Score_Point_OnCollisionEnter_m6B0CF22C36EC4D1E3BBD288D6F6DF2CE8A7C2BD3 (void);
+// 0x0000003A System.Void Score_Point::.ctor()
+extern void Score_Point__ctor_m4450FFE4B78D1F77DC4AD00B3C04479AFCD565AF (void);
+// 0x0000003B System.Void TwinsBlock::Start()
+extern void TwinsBlock_Start_mDB2004417DEA2DF8D65FC3E5FCEADD3935FF33DC (void);
+// 0x0000003C System.Void TwinsBlock::Update()
+extern void TwinsBlock_Update_m8D050CA87E4CE644DA8C6DAF38F56673D0352149 (void);
+// 0x0000003D System.Void TwinsBlock::OnTriggerEnter(UnityEngine.Collider)
+extern void TwinsBlock_OnTriggerEnter_m5B741B7715B01687C2A689D7032F20EC20157C53 (void);
+// 0x0000003E System.Void TwinsBlock::.ctor()
+extern void TwinsBlock__ctor_m6262D4E61216B09812369646785327F679A81D5F (void);
+// 0x0000003F System.Void Twins_Meteo::Start()
+extern void Twins_Meteo_Start_m6364AE02C2E4EBFF79ECF6A997FCCF36E6701455 (void);
+// 0x00000040 System.Void Twins_Meteo::Update()
+extern void Twins_Meteo_Update_m5F252BCB5E77B68C19F5D709229C8FA8646311B7 (void);
+// 0x00000041 System.Void Twins_Meteo::OnCollisionEnter(UnityEngine.Collision)
+extern void Twins_Meteo_OnCollisionEnter_m57D425050C3EA88ED3D2482E6C948C7F5D8ED63D (void);
+// 0x00000042 System.Void Twins_Meteo::.ctor()
+extern void Twins_Meteo__ctor_m77589CB0473F1E49D10F8B8D1354F8C716F030A3 (void);
+// 0x00000043 System.Void Twins_P_L::Start()
+extern void Twins_P_L_Start_mB4DEE64039C0134F9807B3E459C2CB44EC64E597 (void);
+// 0x00000044 System.Void Twins_P_L::Update()
+extern void Twins_P_L_Update_m6CB74083324A1A797B7FFCC13112345CFEFF8CAC (void);
+// 0x00000045 System.Void Twins_P_L::forwardButtonDown()
+extern void Twins_P_L_forwardButtonDown_mD481CD5BD14CB810A8E82D656DACA118E83275E6 (void);
+// 0x00000046 System.Void Twins_P_L::forwardButtonUp()
+extern void Twins_P_L_forwardButtonUp_m08C65419383BF25D9A6DFC6A127EC68B8397B7F2 (void);
+// 0x00000047 System.Void Twins_P_L::backButtonDown()
+extern void Twins_P_L_backButtonDown_m7DA6916BD355928811B37F48B5EEE33B9C200361 (void);
+// 0x00000048 System.Void Twins_P_L::backButtonUp()
+extern void Twins_P_L_backButtonUp_m18BBC625D9AFF32352EF9F6D1388725F58E4CFDD (void);
+// 0x00000049 System.Void Twins_P_L::OnTriggerEnter(UnityEngine.Collider)
+extern void Twins_P_L_OnTriggerEnter_mEC6515155CEB20AF299DD848824C93541C315DCB (void);
+// 0x0000004A System.Void Twins_P_L::.ctor()
+extern void Twins_P_L__ctor_m07420F3D402D5ACD94AC9159A4A50D1C869A4730 (void);
+// 0x0000004B System.Void Twins_P_R::Start()
+extern void Twins_P_R_Start_m5EC69F161CF67E79DBEE91967E5EDDA6AE60F746 (void);
+// 0x0000004C System.Void Twins_P_R::Update()
+extern void Twins_P_R_Update_mB9DD2418458F513CF519A93E221C34DB72B28FF9 (void);
+// 0x0000004D System.Void Twins_P_R::forwardButtonDown()
+extern void Twins_P_R_forwardButtonDown_m321AEBB8B48E3510ADA8CE510BA996941AA94D63 (void);
+// 0x0000004E System.Void Twins_P_R::forwardButtonUp()
+extern void Twins_P_R_forwardButtonUp_mA88B898497232E2B857A9F623738E745629BB7F8 (void);
+// 0x0000004F System.Void Twins_P_R::backButtonDown()
+extern void Twins_P_R_backButtonDown_mDAE7681E6FD8FBEAA29CEFEE6AB6527A848FE075 (void);
+// 0x00000050 System.Void Twins_P_R::backButtonUp()
+extern void Twins_P_R_backButtonUp_m4B56D80565E474C2119BF714578DD03FD7EFFF76 (void);
+// 0x00000051 System.Void Twins_P_R::OnTriggerEnter(UnityEngine.Collider)
+extern void Twins_P_R_OnTriggerEnter_m62411A8AD862FC76AA2571B081247FA10D3C79E2 (void);
+// 0x00000052 System.Void Twins_P_R::.ctor()
+extern void Twins_P_R__ctor_m3B671661B0B79262C2B51133AAEDE9D9EF18C196 (void);
+static Il2CppMethodPointer s_methodPointers[82] = 
+{
+	LookCamera_Start_m477D97AEEB0AE668707135233A771CFEDB158758,
+	LookCamera_Update_mA407320027A42D7B3D927D1A96C5D21957FAE501,
+	LookCamera__ctor_m205E686ADE2447FB6D77455C6B1BB68A9EE8F711,
+	SkyboxChanger_Awake_m277CAAE5694E0F626BC667F43F17F9937A5CE0F8,
+	SkyboxChanger_ChangeSkybox_mDDFA30D0CA245B27A82D0E3C499725B0C4A2A7A8,
+	SkyboxChanger__ctor_mF2042E40C757632172F960BB139550F779D36080,
+	Cube_Start_m7F0D8234146CEF017DE64B936C24DA85B1443B62,
+	Cube_Update_m7A81C6F3625ACAB2DEBA548F1A765383F060CFEC,
+	Cube_forwardButtonDown_m460B1042845A60D551D267944D0E539594607612,
+	Cube_forwardButtonUp_m77FF7D86D6C1C1AA7DC67D9B6CCA998042FE9BEE,
+	Cube_backButtonDown_mD637256CF69ED6CC2B76999CA0A997CA7B0A9500,
+	Cube_backButtonUp_mDBB66672276581950344594C8AE89B1E5A5A9F7A,
+	Cube_rightButtonDown_m6B72B94F5E59A4D6F2BA3302D68F715F916A1C9A,
+	Cube_rightButtonUp_mF84D5A475F17AD386528DD454E09B8AF40211CFC,
+	Cube_leftButtonDown_mECBCC71B7670A1F3FFED04A9DAD405535461E7E9,
+	Cube_leftButtonUp_m4280A96E828D0676F76BED03E0D8CBCD6FD7B6FF,
+	Cube__ctor_m6544EEAA5C47298B0E2AF77CE54857E6D4549A4D,
+	Meteo_Creater_Start_m13E1F177CC3A60F15072EAA98A0C28BD52B1F2BC,
+	Meteo_Creater_Update_mE20B9E997E76AB8093B1FA17994628A03D55C418,
+	Meteo_Creater__ctor_m7C28560767E4E0D44421CE3A9231C0C9473D2DD0,
+	StartButton_OnClickStartButton_mA4617EAAFF5D010600A96E89A700DB909FB441A4,
+	StartButton__ctor_m6DAB2093EB360099E446CA6B746441526C0C7BD9,
+	TitleM_Start_mE3F42C8FC4E0FC9B621E35E7D504958BF897323B,
+	TitleM_Update_m3B771C82AEE3D6FF64C2C21859CD6F7AA17435AE,
+	TitleM_OnTriggerEnter_mFAA9677512006385AFED7361F85C3A175796F4C8,
+	TitleM__ctor_mDDA919C26678B48DD42297A74BB8763215C37FE8,
+	TitleMeteo_Start_m9C81026AF10FBA01C6E08533CE9A9A31158D6462,
+	TitleMeteo_Update_mFB7F3C77F5397E58E5C0DAC5565E1E7B09766238,
+	TitleMeteo_OnCollisionEnter_mBD69C9FD4C6D3036480385B2E7B75393BA47C05C,
+	TitleMeteo__ctor_mFA67E1B3D83151FC333BD4A7A4429F573B3A2D2E,
+	Title_HighScore_Start_mB269CA7C81CB2543AF2BEB59586978E6AD13E7EB,
+	Title_HighScore_Update_mB4030B88BBB078230417D04B19CB1675A280304B,
+	Title_HighScore_Initialize_m83C4CBA624D85BBEB4B013281D3CAAC0E8D7B31B,
+	Title_HighScore_Save_mC75FACB962CA05DDAC2FCD573F9DA049D2167F2A,
+	Title_HighScore__ctor_m18D6E374E57D79102222DD092EA268A2FEFD803F,
+	BlockCreater_Start_m4C7382BFFE75A21DF800A446C0B3B47492E70178,
+	BlockCreater_Update_mE6852B4D5869FD7321F03A36D3F983A47B21FD2D,
+	BlockCreater__ctor_mDC3C628EAF765313B343A1384FC7F0578994D33C,
+	BlockCreater__cctor_m1B75B06CCB4E5474D354B384F046D77CF2756C06,
+	Explosion_particle_Start_m6069C50BF8EE6375DAB5770B9881819EEB075864,
+	Explosion_particle_Update_m1F4A890FD3FDDA7C85C552BBC547BC787D268791,
+	Explosion_particle__ctor_mB272237503131AE7E41D19202B30D90A7ABB9DF0,
+	Retry_Button_OnClickRetryButton_m811AE12D63B05A48A0F3A648C5D7B2CC31EFEA7B,
+	Retry_Button__ctor_mC158FF0D635B68AA36255662F6DD3697587B817F,
+	Score_Start_m65B0DAC30D1A9E246D4CF14672D8138B53EDA564,
+	Score_Update_mB696B161F91F1AE220BCD4F47028DE039D9697D2,
+	Score_Initialize_mB8347144557C745BECA791B67272DAB3024E4321,
+	Score_AddPoint_mE05E9404BE2918B4AFBE7E57940A02436A8DDEF3,
+	Score_Save_mD844762A10845C39DAD47EA38D982C6E854AE243,
+	Score__ctor_mEE9186D20D9B28A735262B29AB6E8D9FF1380FB6,
+	Score_Creater_Start_m6506D7A94C28CDE8D6E8E3267C6AC0E90824BF9B,
+	Score_Creater_Update_mD74E0D83EE17300990300B0EE0F555F93028CF2F,
+	Score_Creater__ctor_m5ECD5B74352EB5F15E70878CAC92C31B0496FD1C,
+	Score_Point_Start_m6BE42B7BFE5449EB1F362300A35421C7D19253CB,
+	Score_Point_Update_m8FCACAC0FD4EE7C4E6C8A9A28B642F4E84BB7B34,
+	Score_Point_OnTriggerEnter_m22FF462B568BF8C3BB1E97F2861FE09D08177290,
+	Score_Point_OnCollisionEnter_m6B0CF22C36EC4D1E3BBD288D6F6DF2CE8A7C2BD3,
+	Score_Point__ctor_m4450FFE4B78D1F77DC4AD00B3C04479AFCD565AF,
+	TwinsBlock_Start_mDB2004417DEA2DF8D65FC3E5FCEADD3935FF33DC,
+	TwinsBlock_Update_m8D050CA87E4CE644DA8C6DAF38F56673D0352149,
+	TwinsBlock_OnTriggerEnter_m5B741B7715B01687C2A689D7032F20EC20157C53,
+	TwinsBlock__ctor_m6262D4E61216B09812369646785327F679A81D5F,
+	Twins_Meteo_Start_m6364AE02C2E4EBFF79ECF6A997FCCF36E6701455,
+	Twins_Meteo_Update_m5F252BCB5E77B68C19F5D709229C8FA8646311B7,
+	Twins_Meteo_OnCollisionEnter_m57D425050C3EA88ED3D2482E6C948C7F5D8ED63D,
+	Twins_Meteo__ctor_m77589CB0473F1E49D10F8B8D1354F8C716F030A3,
+	Twins_P_L_Start_mB4DEE64039C0134F9807B3E459C2CB44EC64E597,
+	Twins_P_L_Update_m6CB74083324A1A797B7FFCC13112345CFEFF8CAC,
+	Twins_P_L_forwardButtonDown_mD481CD5BD14CB810A8E82D656DACA118E83275E6,
+	Twins_P_L_forwardButtonUp_m08C65419383BF25D9A6DFC6A127EC68B8397B7F2,
+	Twins_P_L_backButtonDown_m7DA6916BD355928811B37F48B5EEE33B9C200361,
+	Twins_P_L_backButtonUp_m18BBC625D9AFF32352EF9F6D1388725F58E4CFDD,
+	Twins_P_L_OnTriggerEnter_mEC6515155CEB20AF299DD848824C93541C315DCB,
+	Twins_P_L__ctor_m07420F3D402D5ACD94AC9159A4A50D1C869A4730,
+	Twins_P_R_Start_m5EC69F161CF67E79DBEE91967E5EDDA6AE60F746,
+	Twins_P_R_Update_mB9DD2418458F513CF519A93E221C34DB72B28FF9,
+	Twins_P_R_forwardButtonDown_m321AEBB8B48E3510ADA8CE510BA996941AA94D63,
+	Twins_P_R_forwardButtonUp_mA88B898497232E2B857A9F623738E745629BB7F8,
+	Twins_P_R_backButtonDown_mDAE7681E6FD8FBEAA29CEFEE6AB6527A848FE075,
+	Twins_P_R_backButtonUp_m4B56D80565E474C2119BF714578DD03FD7EFFF76,
+	Twins_P_R_OnTriggerEnter_m62411A8AD862FC76AA2571B081247FA10D3C79E2,
+	Twins_P_R__ctor_m3B671661B0B79262C2B51133AAEDE9D9EF18C196,
+};
+static const int32_t s_InvokerIndices[82] = 
+{
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1129,
+	1369,
+	1369,
+	1369,
+	1129,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	2248,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1120,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1129,
+	1129,
+	1369,
+	1369,
+	1369,
+	1129,
+	1369,
+	1369,
+	1369,
+	1129,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1129,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1369,
+	1129,
+	1369,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	82,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
